@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dinero push coupon</title>
+<style>.coupon {
+  border: 5px dotted #B3DEE5; /* Dotted border */
+  width: 80%;
+  border-radius: 15px; /* Rounded border */
+  margin: 0 auto; /* Center the coupon */
+  max-width: 600px;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: #FFCD9B ;
+  position:relative;
+}
+
+.promo {
+  background: #FFCD9B ;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+
+.button{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+</style>
+</head>
+<body>
+<div class="coupon">
+  <div class="container">
+    <h3>Dinero ${couponName} 優惠券</h3>
+  </div>
+  <img src="cid:couponpic" alt="coupon pic" style="width:100%;">
+  <div class="container" style="background-color:white">
+    <h2><b>${discountValue} ${discountUnit}的折扣!</b></h2>
+    <p>${describe}</p>
+  </div>
+  <div class="container">
+    <p>優惠碼: <span class="promo">${couponCode}</span></p>
+    <p class="expire">到期日: ${validUntil}</p>
+    <form action="http://localhost:8080/dinero/productuserform.controller">
+    	<input type="submit" value="前往dinero" class="button"/>
+	</form>
+  </div>
+</div>
+</body>
+</html>
