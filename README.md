@@ -1,3 +1,3 @@
 # III
-Institute for Information Industry in Taiwan \n
-Group Project
+Group Project in Institute for Information Industry in Taiwan
+
