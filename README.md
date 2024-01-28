@@ -22,6 +22,8 @@
 
 ![6](https://github.com/yscpeak/III_SpringBoot_Java_Project/blob/main/event4.png)
 
+(Admins can CRUD events and info.)
+
 ![7](https://github.com/yscpeak/III_SpringBoot_Java_Project/blob/main/event3.png)
 
 ![8](https://github.com/yscpeak/III_SpringBoot_Java_Project/blob/main/event9.png)
