@@ -14,6 +14,8 @@
 
 ![4](https://github.com/yscpeak/III_SpringBoot_Java_Project/blob/main/event7.png)
 
+(Users have an option to share their event details on Facebook.)
+
 ![5](https://github.com/yscpeak/III_SpringBoot_Java_Project/blob/main/event8.png)
 
 ### Content Management System
