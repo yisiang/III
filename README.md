@@ -5,7 +5,7 @@
 
 ![2](https://github.com/yscpeak/III_SpringBoot_Java_Project/blob/main/event2.png)
 
-#### (Recommend events in the same category to the customer.)
+ (Recommend events in the same category to the customer.)
 ![3](https://github.com/yscpeak/III_SpringBoot_Java_Project/blob/main/event4.png)
 
 ### Content Management System
